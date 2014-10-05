@@ -5,6 +5,7 @@ q html {
 }
 body {
     margin: 0;
+    overflow:hidden;
 }
 body p {
 	    font-family: "minion-pro","Georgia",Cambria,Times New Roman,Times,serif;
