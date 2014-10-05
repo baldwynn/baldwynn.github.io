@@ -1,8 +1,15 @@
 q html {
-    font - family: sans - serif; - ms - text - size - adjust: 100 % ; - webkit - text - size - adjust: 100 % ;
+    font-family: sans-serif; 
+    -ms-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%;
 }
 body {
     margin: 0;
+}
+body p {
+	font-family: "minion-pro","Georgia",Cambria,Times New Roman,Times,serif;
+	color: #626262;
+	line-height: 1.5;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
     display: block;
