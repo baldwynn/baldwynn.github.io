@@ -1235,7 +1235,7 @@ h1 {
         left:45%;
     }
     .video_wrapper {
-        background: #fff;
+        background: url(./move.gif) 0 0 no-repeat;
         position: absolute;
         top: 0px;
         left: 0px;
