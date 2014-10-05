@@ -1413,7 +1413,7 @@ h1 {
         font-size:2.8em;
     }
 	.about figure {
-        z-index: 10;
+		z-index: 10;
 		width:255px;
 		margin:5px 0 0 10px;
 		overflow:hidden;
@@ -1440,6 +1440,9 @@ h1 {
     .about#organizer {background-color: #fafafa;}
 
     .about#software {background-color: white;}
+  	.about#software .col-6 {
+  		padding-left:40px;
+  	}
 
     #past {
         background-color:#1C1E26; /*url(../img/scienceworld.jpg) no-repeat;*/
