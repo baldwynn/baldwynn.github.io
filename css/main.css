@@ -3,6 +3,12 @@ q html {
 }
 body {
     margin: 0;
+    font-family: "minion-pro","Georgia",Cambria,Times New Roman,Times,serif;
+	font-size: 15px;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	color: #626262;
+	overflow: auto;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
     display: block;
