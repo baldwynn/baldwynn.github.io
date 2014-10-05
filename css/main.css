@@ -1440,9 +1440,6 @@ h1 {
     .about#organizer {background-color: #fafafa;}
 
     .about#software {background-color: white;}
-  	.about#software .col-6 {
-  		padding-left:40px;
-  	}
 
     #past {
         background-color:#1C1E26; /*url(../img/scienceworld.jpg) no-repeat;*/
