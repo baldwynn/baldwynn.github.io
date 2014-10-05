@@ -1237,7 +1237,7 @@ h1 {
         margin: 0;
         padding: 0;
         height: 100%;
-        /*width: 100%!important;*/
+        width: 100%!important;
     }
 
     .video_wrapper video {  
