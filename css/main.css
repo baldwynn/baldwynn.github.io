@@ -1163,7 +1163,6 @@ h1 {
 	#header {
 		/*background:#c7cccf url("../images/header.jpg") 50% 0px no-repeat fixed;*/
 		/*background-size:cover;*/
-        margin-top: 20px;
 		z-index: 1;
 		position: static;
 	}
@@ -1235,7 +1234,7 @@ h1 {
         left:45%;
     }
     .video_wrapper {
-        background: url(./move.gif) 0 0 no-repeat;
+        background: #fff;
         position: absolute;
         top: 0px;
         left: 0px;
@@ -1538,9 +1537,12 @@ h1 {
 
 	@media screen and (max-width: 1024px) {
 		#header {
-			/*background:#c7cccf url("../images/header.jpg") center top no-repeat fixed;*/
+			background:#c7cccf url("./move.gif") center top no-repeat fixed;
 			background-size:auto;
 		}
+        .video_wrapper {
+            display: none;
+        }
 	}
 
 	@media screen and (max-width: 768px) {
