@@ -3,9 +3,9 @@ q html {
 }
 body {
     margin: 0;
-    font-family: "minion-pro","Georgia",Cambria,Times New Roman,Times,serif;
-	font-size: 15px;
-	font-size: 1.5rem;
+}
+body p {
+	font-family: "minion-pro","Georgia",Cambria,Times New Roman,Times,serif;
 	line-height: 1.5;
 	color: #626262;
 	overflow: auto;
