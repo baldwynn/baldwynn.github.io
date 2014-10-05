@@ -5,12 +5,11 @@ q html {
 }
 body {
     margin: 0;
-    overflow:hidden!important;
 }
 body p {
-	    font-family: "minion-pro","Georgia",Cambria,Times New Roman,Times,serif;
+	font-family: "minion-pro","Georgia",Cambria,Times New Roman,Times,serif;
 	color: #626262;
-
+	line-height: 1.5;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
     display: block;
@@ -1245,7 +1244,7 @@ h1 {
         margin: 0;
         padding: 0;
         height: 100%;
-        /*width: 100%!important;*/
+        width: 100%!important;
     }
 
     .video_wrapper video {  
