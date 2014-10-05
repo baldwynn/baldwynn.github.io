@@ -8,7 +8,6 @@ body {
 }
 body p {
 	font-family: "minion-pro","Georgia",Cambria,Times New Roman,Times,serif;
-	color: #626262;
 	line-height: 1.5;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
@@ -142,7 +141,6 @@ status {
 h1 {
     font: 4.3em / 2em 'PT Sans',
     serif;
-    text - align: center;
 }.btn {
     font: 1.1em 'PT Sans';
     text-decoration: none!important;
@@ -1400,6 +1398,9 @@ h1 {
         height: 100%;
         overflow: hidden;
     }
+    .about p {
+        color: #626262;
+    }
     .container {
         position: relative;
         padding-top:8%;
@@ -1552,24 +1553,18 @@ h1 {
             background-size:auto;
         }
     }
-    
-	@media screen and (max-width: 761px) {
-		h1{font:'PT Sans',serif; font-size: 3em!important;}
 
+	@media screen and (max-width: 761px) {
+		.container h1{font-size: 2.1em}
+        .container p{font-size: 1.05em}
+
+        #header h1 {
+            font-size: 3em;
+        }
         #header h2 {
             margin-top: -10px;
             font-size: 1.35em;
         }
-		#testimonials h1{font:3em/2em 'PT Sans ',serif;}
-
-		#about .text {
-			margin-left:10px;
-			margin-right:10px;
-			column-count:1;
-			-moz-column-count:1;
-			-webkit-column-count:1;
-		}
-
 		#past dt,#past dd {
 			margin-left:10px;
 			margin-right:10px;
@@ -1578,8 +1573,6 @@ h1 {
 		}
 
 		#past .h2{margin-bottom:30px;}
-
-		#clients li{width:50%;}
 
 		aside{font-size:4em;}
 	}
