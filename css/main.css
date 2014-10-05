@@ -1161,15 +1161,13 @@ h1 {
 	.container{position:relative;max-width:940px;margin:0 auto;padding:0 10px;}
 
 	#header {
-		/*background:#c7cccf url("../images/header.jpg") 50% 0px no-repeat fixed;*/
-		/*background-size:cover;*/
-		z-index: 1;
+        padding-top: 3%;
 		position: static;
 	}
 	#header figure {float:left;margin-top:25px;}
 
 	#header h1,#header h2,#header p {text-align:center;color:#f9f9f9;}
-	#header h1 {margin-bottom:20px;line-height:1em;}
+	#header h1 {margin-bottom:20px;line-height:1em; font-size: 3.8em}
 	#header h2 {
 		font:300 30px 'Open Sans ',sans-serif;
         margin:0 0 6%;
@@ -1234,7 +1232,8 @@ h1 {
         left:45%;
     }
     .video_wrapper {
-        background: #fff;
+        background: url("./move.gif");
+        background-size: cover;
         position: absolute;
         top: 0px;
         left: 0px;
@@ -1537,7 +1536,7 @@ h1 {
 
 	@media screen and (max-width: 1024px) {
 		#header {
-			background:#c7cccf url("./move.gif") center top no-repeat fixed;
+			background:#c7cccf url("../move_full.gif") center top no-repeat fixed;
 			background-size:auto;
 		}
         .video_wrapper {
@@ -1547,6 +1546,11 @@ h1 {
 
 	@media screen and (max-width: 768px) {
 		h1{font:3.6em/1.4em 'PT Sans ',serif;}
+
+        #header {
+            background:#c7cccf url("../move_small.gif") center top no-repeat fixed;
+            background-size:auto;
+        }
 
 		#testimonials h1{font:3em/2em 'PT Sans ',serif;}
 
