@@ -33,7 +33,7 @@
 				});
 
 				jQuery("#intro").css("padding-top", function(){
-					return e/2-t/2-60+"px"
+					return e/2-t/2-150+"px"
 				});
 			}
 

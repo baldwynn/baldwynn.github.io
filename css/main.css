@@ -1166,13 +1166,14 @@ h1 {
         position: relative;
 	}
 
-	.scroll-down {
-		position:relative;
+
+	.scroll-down.header {
+		position:absolute;
 		z-index:100;
 		opacity:1;
 		left:50%;
 		margin-left:-42px;
-        padding-top: 100px;
+        bottom:160px;
 		-webkit-transition:all .35s ease-in-out;
 		-moz-transition:all .35s ease-in-out;
 		-ms-transition:all .35s ease-in-out;
@@ -1180,17 +1181,41 @@ h1 {
 		transition:all .35s ease-in-out;
 	}
 
-	.scroll-down {
+	.scroll-down.header {
 		-webkit-animation:arrows 3.8s infinite;-moz-animation:arrows 3.8s infinite;-ms-animation:arrows 3.8s infinite;-o-animation:arrows 3.8s infinite;animation:arrows 3.8s infinite;
 		-webkit-animation-delay:1s;
 		-moz-animation-delay:1s;
 		-ms-animation-delay:1s;
 		-o-animation-delay:1s;
 		animation-delay:1s;
-		cursor:pointer;
 	}
-	.scroll-down:hover{opacity:0.5;}
+    .scroll-down.header:hover{opacity:0.5;}
 
+
+    .scroll-down.software img,  .scroll-down.past img {
+        position:absolute;
+        z-index:100;
+        opacity:1;
+        -webkit-transition:all .35s ease-in-out;
+        -moz-transition:all .35s ease-in-out;
+        -ms-transition:all .35s ease-in-out;
+        -o-transition:all .35s ease-in-out;
+        transition:all .35s ease-in-out;
+    }
+
+    .scroll-down.software img,  .scroll-down.past img {
+        -webkit-animation:arrows 3.8s infinite;-moz-animation:arrows 3.8s infinite;-ms-animation:arrows 3.8s infinite;-o-animation:arrows 3.8s infinite;animation:arrows 3.8s infinite;
+        -webkit-animation-delay:1s;
+        -moz-animation-delay:1s;
+        -ms-animation-delay:1s;
+        -o-animation-delay:1s;
+        animation-delay:1s;
+    }
+
+    .scroll-down.software, .scroll-down.past {
+        position: absolute;
+        left:45%;
+    }
     .video_wrapper {
         background: #fff;
         position: absolute;
@@ -1359,8 +1384,8 @@ h1 {
     }
     .container {
         position: relative;
-        padding-top:10%;
-        padding-bottom:13%; 
+        padding-top:8%;
+        padding-bottom:10%; 
         min-height:100%;
         padding-left: 5%;
         padding-right: 5%;
