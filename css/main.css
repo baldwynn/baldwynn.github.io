@@ -148,6 +148,12 @@ h1 {
     font: 4.3em/2em 'PT Sans',
     serif;
 }
+
+section {
+	padding: 10% 0 10% 0;
+	
+}
+
 .btn {
     font: 1.1em 'PT Sans';
     text-decoration: none!important;
