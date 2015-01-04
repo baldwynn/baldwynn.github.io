@@ -17,16 +17,17 @@ audio, canvas, progress, video {
     display: inline-block;
     vertical-align: baseline;
 }
-audio: not([controls]) {
+audio:not([controls]) {
     display: none;
     height: 0;
-}[hidden], template {
+}
+[hidden], template {
     display: none;
 }
 a {
     background: transparent;
 }
-a: active, a: hover {
+a:active, a:hover {
     outline: 0;
 }
 abbr[title] {
@@ -74,7 +75,7 @@ input {
     line-height: normal;
 }
 fieldset {
-    border: 1px solid# c0c0c0;
+    border: 1px solid #c0c0c0;
     margin: 0 2px;
     padding: 0.35em 0.625em 0.75em;
 }
@@ -106,14 +107,14 @@ td, th {
     top: 0;
     white-space: nowrap;
 }
-.accessibility-nav a: active, .accessibility-nav a: focus {
+.accessibility-nav a:active, .accessibility-nav a:focus {
     left: 9999em;
 }
 .hide {
     position: absolute!important;
     left: -9999em!important;
 }
-.clearfix: after, .container: after {
+.clearfix:after, .container:after {
     content: ".";
     display: block;
     visibility: hidden;
@@ -121,7 +122,7 @@ td, th {
     height: 0;
 }
 body {
-    font: 1em / 1.25 'Open Sans',
+    font: 1em/1.25 'Open Sans',
     sans-serif;
     color: #000;background:# fff;
     overflow: hidden;
@@ -185,7 +186,11 @@ h1 {
 	box-sizing:border-box;
 }
 @font-face{
-	font-weight:normal;font-style:normal;font-family:'icomoon';src:url('../fonts/icomoon/icomoon.eot');src:url('../fonts/icomoon/icomoon.eot?# iefix ') format('
+	font-weight:normal;
+	font-style:normal;
+	font-family:'icomoon';
+	src:url('../fonts/icomoon/icomoon.eot');
+	src:url('../fonts/icomoon/icomoon.eot?# iefix ') format('
         embedded-opentype '),url('../fonts/icomoon/icomoon.ttf') format('
         truetype '),url('../fonts/icomoon/icomoon.woff') format('
         woff '),url('../fonts/icomoon/icomoon.svg icomoon ') format('
@@ -436,16 +441,16 @@ h1 {
 		margin:5px 0 0 10px;
 		overflow:hidden;
 	}
-    .about ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-    .about ul li {
-        width: 25%;
-        margin: 0;
-        padding: 0;
-    }
+	.about ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	.about ul li {
+		width: 25%;
+		margin: 0;
+		padding: 0;
+	}
 	.about .text {
 		color:#5a5a5a;
 		margin:0;padding:0;
@@ -455,17 +460,17 @@ h1 {
 		padding:0;
 	}
 
-    .about#organizer {background-color: #fafafa;}
-
-    .about#software {background-color: white;}
-
-    #past {
-        background-color:#1C1E26; /*url(../img/scienceworld.jpg) no-repeat;*/
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
+	.about#organizer {background-color: #fafafa;}
+	
+	.about#software {background-color: white;}
+	
+	#past {
+		background-color:#1C1E26; /*url(../img/scienceworld.jpg) no-repeat;*/
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
 	#past .container {
 		padding-top:20px;
 		padding-bottom:20px;
@@ -482,23 +487,22 @@ h1 {
 	#past dt .h2 {
 		font-size:34px!important;
 		font-weight:300;
-        margin-top: 35px;
+        	margin-top: 35px;
 	}
 	#past dd {
 		width:57%;
 		float:right;
 		margin:0 0 75px 0;
 	}
-	#past dd p{font-size:18px;}
-	#past dd .date{font-size:14px;margin-bottom:2.3em;}
-	#past .btn{width:195px;padding:0;margin:0 auto 35px;display:block;text-transform:none;}
+	#past dd p {font-size:18px;}
+	#past dd .date {font-size:14px;margin-bottom:2.3em;}
+	#past .btn {width:195px;padding:0;margin:0 auto 35px;display:block;text-transform:none;}
 
 
-	.container{position:relative;max-width:940px;margin:0 auto;padding:0 10px;}
+	.container {position:relative;max-width:940px;margin:0 auto;padding:0 10px;}
 
 	#header {
 		position: static;
-        
 	}
 	#header figure {float:left;margin-top:25px;}
 
@@ -511,18 +515,18 @@ h1 {
 	        opacity: 0.8;
 	}
 
-    #header #intro {
-        padding-bottom: 15%;
-    }
-	#header .container {
-        position: relative;
+	#header #intro {
+		padding-bottom: 15%;
 	}
-
-    .row.scroll-down {
-        top: 95%;
-        left: 50%;
-        position: absolute;
-    }
+	#header .container {
+		position: relative;
+	}
+	
+	.row.scroll-down {
+		top: 95%;
+		left: 50%;
+		position: absolute;
+	}
 	.scroll-down.header {
 		position:absolute;
 		z-index:100;
@@ -546,58 +550,58 @@ h1 {
 		-o-animation-delay:1s;
 		animation-delay:1s;
 	}
-    .scroll-down.header:hover{opacity:0.5;}
-
-
-    .scroll-down.software img,  .scroll-down.past img {
-        position:absolute;
-        z-index:100;
-        opacity:1;
-        -webkit-transition:all .35s ease-in-out;
-        -moz-transition:all .35s ease-in-out;
-        -ms-transition:all .35s ease-in-out;
-        -o-transition:all .35s ease-in-out;
-        transition:all .35s ease-in-out;
-    }
-
-    .scroll-down.software img,  .scroll-down.past img {
-        -webkit-animation:arrows 3.8s infinite;-moz-animation:arrows 3.8s infinite;-ms-animation:arrows 3.8s infinite;-o-animation:arrows 3.8s infinite;animation:arrows 3.8s infinite;
-        -webkit-animation-delay:1s;
-        -moz-animation-delay:1s;
-        -ms-animation-delay:1s;
-        -o-animation-delay:1s;
-        animation-delay:1s;
-    }
-
-    .scroll-down.software, .scroll-down.past {
-        position: absolute;
-        left:45%;
-    }
-    .video_wrapper {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        z-index: -1;
-        overflow: hidden;
-        margin: 0;
-        padding: 0;
-        height: 100%;
-        width: 100%!important;
-    }
-
-    .video_wrapper video {  
-        z-index: 0!important;
-        object-fit: cover!important;
-        transition: opacity 1500ms linear;
-        opacity:0.83;
-    }
+	.scroll-down.header:hover{opacity:0.5;}
+	
+	
+	.scroll-down.software img,  .scroll-down.past img {
+	position:absolute;
+	z-index:100;
+	opacity:1;
+	-webkit-transition:all .35s ease-in-out;
+	-moz-transition:all .35s ease-in-out;
+	-ms-transition:all .35s ease-in-out;
+	-o-transition:all .35s ease-in-out;
+	transition:all .35s ease-in-out;
+	}
+	
+	.scroll-down.software img,  .scroll-down.past img {
+	-webkit-animation:arrows 3.8s infinite;-moz-animation:arrows 3.8s infinite;-ms-animation:arrows 3.8s infinite;-o-animation:arrows 3.8s infinite;animation:arrows 3.8s infinite;
+	-webkit-animation-delay:1s;
+	-moz-animation-delay:1s;
+	-ms-animation-delay:1s;
+	-o-animation-delay:1s;
+	animation-delay:1s;
+	}
+	
+	.scroll-down.software, .scroll-down.past {
+	position: absolute;
+	left:45%;
+	}
+	.video_wrapper {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%!important;
+	}
+	
+	.video_wrapper video {  
+	z-index: 0!important;
+	object-fit: cover!important;
+	transition: opacity 1500ms linear;
+	opacity:0.83;
+	}
 
 
 	main h1{font-size:3.6em;letter-spacing:1px;margin:0 0 30px;}
 	
-
+	
 	#footer {background:#D0C1AF;}
-
+	
 	#footer .container {
 		padding-top:45px;
 		padding-bottom:25px;
@@ -606,22 +610,22 @@ h1 {
 		font-weight:600;
 		color:#FFFFFF;
 	}
-    #footer .container p {
-        font-weight: 300;
-        font-size: 18px;
-        line-height: 1.4em;
-        text-align: center;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    #footer .icons a {
-    	color: #D0C1AF;
-        text-decoration: none;
-        font-size: 1.5em;
-        margin: 0 .4em;
-        padding: 10px;
-        background-color: white;
-    }
+	#footer .container p {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 1.4em;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+	}
+	#footer .icons a {
+	    color: #D0C1AF;
+	text-decoration: none;
+	font-size: 1.5em;
+	margin: 0 .4em;
+	padding: 10px;
+	background-color: white;
+	}
 
 
 	@media screen and (max-width: 1024px) {
@@ -634,11 +638,11 @@ h1 {
 	        }
 	}
     	@media screen and (max-width:640px) {
-        #header {
-            background:#c7cccf url("../move_small.gif") center top no-repeat fixed;
-            background-size:auto;
-        }
-    }
+	        #header {
+	            background:#c7cccf url("../move_small.gif") center top no-repeat fixed;
+	            background-size:auto;
+	        }
+	    }
 
 	@media screen and (max-width: 761px) {
 		.container h1{font-size: 2.1em}
@@ -669,7 +673,7 @@ h1 {
 		a[href]:after{content:" (" attr(href) ") ";font-size:90%;}
 		a[href^="/"]:after{content:" (http://domain.com" attr(href) ") ";}
 
-		.accessibility-nav,.hide{display:none!important;}
+		.accessibility-nav, .hide {display:none!important;}
 	}
 
 	@keyframes arrows{
