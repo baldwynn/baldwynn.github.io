@@ -412,11 +412,7 @@ h1 {
 
     html.mm-opened .mm-page {box-shadow:0 0 20px rgba(0,0,0,0.5);}
 
-    .mm-ismenu{background:#333333;color:rgba(255,255,255,0.6);}
-    	.about {
-        height: 100%;
-        overflow: hidden;
-    }
+
     .about p {
         color: #626262;
     }
@@ -596,41 +592,6 @@ h1 {
         opacity:0.83;
     }
 
-	#navigation {background:#252525;}
-	#navigation>ul {margin:0;padding:100px 0 0 0;}
-	#navigation>ul li {
-		text-align:center;
-		font:32px 'PT Mono ',serif;border:none;
-		letter-spacing:1px;
-		list-style:none;
-		margin:0;
-		padding:0;
-	}
-
-
-	#navigation>ul a {
-		color:#424242;
-		display:block;
-		padding-top:20px;
-		padding-bottom:20px;
-		text-decoration:none;
-	}
-	#navigation>ul a:hover{color:#898989;}
-	#navigation .social li{width:32px;height:32px;float:left;}
-	#navigation .social section {
-		float:none;width:230px;
-		margin:20px auto 40px;
-		border-top:1px solid #3a3a3a;
-	}
-	#navigation .social li {margin-left:10px;}
-	#navigation .social a {
-		text-indent:-2000em;
-		width:32px;
-		height:32px;
-		display:block;
-		padding:0;
-		margin:0;
-	}
 
 	main h1{font-size:3.6em;letter-spacing:1px;margin:0 0 30px;}
 	
