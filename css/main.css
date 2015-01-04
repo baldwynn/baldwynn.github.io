@@ -14,8 +14,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
     display: block;
 }
 audio, canvas, progress, video {
-    display: inline - block;
-    vertical - align: baseline;
+    display: inline-block;
+    vertical-align: baseline;
 }
 audio: not([controls]) {
     display: none;
@@ -30,34 +30,34 @@ a: active, a: hover {
     outline: 0;
 }
 abbr[title] {
-    border - bottom: 1px dotted;
+    border-bottom: 1px dotted;
 }
 b, strong {
-    font - weight: bold;
+    font-weight: bold;
 }
 dfn {
-    font - style: italic;
+    font-style: italic;
 }
 h1 {
-    font - size: 2em;
+    font-size: 2em;
     margin: 0.67em 0;
 }
 mark {
     background: #ff0;
     color: #000;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-0.5em;}sub{bottom:-0.25em;}img{border:0;}svg:not(:root){overflow:hidden;}figure{margin:1em 40px;}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0;}pre{overflow:auto;}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em;}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0;
 }button{overflow:visible;}button,select{text-transform:none;}button,html input[type= "button"], input[type = "reset"], input[type = "submit"] {
-    -webkit - appearance: button;
+    -webkit-appearance: button;
     cursor: pointer;
 }
 button[disabled], html input[disabled] {
     cursor: default;
 }
-button::-moz - focus - inner, input::-moz - focus - inner {
+button::-moz-focus-inner, input::-moz-focus-inner {
     border: 0;
     padding: 0;
 }
 input {
-    line - height: normal;
+    line-height: normal;
 }
 
 fieldset {
@@ -73,24 +73,24 @@ textarea {
     overflow: auto;
 }
 optgroup {
-    font - weight: bold;
+    font-weight: bold;
 }
 table {
-    border - collapse: collapse;
-    border - spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 td, th {
     padding: 0;
-}.accessibility - nav {
+}.accessibility-nav {
     position: absolute;
     top: 0;
     left: -9999em;
-    z - index: 1000;
-}.accessibility - nav a {
+    z-index: 1000;
+}.accessibility-nav a {
     position: absolute;
     top: 0;
-    white - space: nowrap;
-}.accessibility - nav a: active, .accessibility - nav a: focus {
+    white-space: nowrap;
+}.accessibility-nav a: active, .accessibility-nav a: focus {
     left: 9999em;
 }.hide {
     position: absolute!important;
@@ -104,31 +104,32 @@ td, th {
 }
 body {
     font: 1em / 1.25 'Open Sans',
-    sans - serif;
+    sans-serif;
     color: #000;background:# fff;
     overflow: hidden;
-}#
+}
 preloader {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background - color: #fff;
-    z - index: 99;
-}#
+    background-color: #fff;
+    z-index: 99;
+}
 status {
     width: 256px;
     height: 32px;
     position: absolute;
-    left: 50 % ;
-    top: 50 % ;
-    margin: -100px 0 0 - 128px;
+    left: 50% ;
+    top: 50% ;
+    margin: -100px 0 0 -128px;
 }
 h1 {
-    font: 4.3em / 2em 'PT Sans',
+    font: 4.3em/2em 'PT Sans',
     serif;
-}.btn {
+}
+.btn {
     font: 1.1em 'PT Sans';
     text-decoration: none!important;
     text-align: center;
@@ -156,9 +157,9 @@ h1 {
 .btn:hover, .btn:active {
         background: #fcfcfc;
         color: black;text-decoration:none;}.ir{display:block;position:relative;overflow:hidden;}.ir span{display:block;position:absolute;width:100%;height:100%;top:0;left:0;z-index:1;}*,*:after,*::before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}@font-face{font-weight:normal;font-style:normal;font-family:'icomoon';src:url('../fonts/icomoon/icomoon.eot');src:url('../fonts/icomoon/icomoon.eot?# iefix ') format('
-        embedded - opentype '),url('.. / fonts / icomoon / icomoon.ttf ') format('
-        truetype '),url('.. / fonts / icomoon / icomoon.woff ') format('
-        woff '),url('.. / fonts / icomoon / icomoon.svg# icomoon ') format('
+        embedded-opentype '),url('../fonts/icomoon/icomoon.ttf ') format('
+        truetype '),url('../fonts/icomoon/icomoon.woff ') format('
+        woff '),url('../fonts/icomoon/icomoon.svg icomoon ') format('
         svg ');
 }
 .progress-button{position:relative;display:inline-block;padding:0 60px;outline:none;border:none;background:transparent;color:#fff;text-transform:uppercase;letter-spacing:1px;font-size:1em;line-height:4;}
@@ -167,9 +168,11 @@ h1 {
 		color:#000;background:#fcfcfc;
 	}
 	.progress-button .content{position:relative;display:block;}
-	.progress-button .content::before,.progress-button .content::after {
-			position:absolute;right:20px;
-			color:#000;font-family:"icomoon";
+	.progress-button .content::before, .progress-button .content::after {
+			position:absolute;
+			right:20px;
+			color:#000;
+			font-family:"icomoon";
 			opacity:0;
 			-webkit-transition:opacity 0.3s 0.3s;
 			transition:opacity 0.3s 0.3s;
@@ -1711,3 +1714,4 @@ h1 {
             bottom: 40px;
         }
     }
+}
