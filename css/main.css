@@ -122,9 +122,9 @@ td, th {
     height: 0;
 }
 body {
-    font: 1em/1.25 'Open Sans',
-    sans-serif;
-    color: #000;background:# fff;
+    font: 1em/1.25 'Open Sans' sans-serif;
+    color: #000; 
+    background: #fff;
     overflow: hidden;
 }
 preloader {
@@ -190,7 +190,7 @@ h1 {
 	font-style:normal;
 	font-family:'icomoon';
 	src:url('../fonts/icomoon/icomoon.eot');
-	src:url('../fonts/icomoon/icomoon.eot?# iefix ') format('
+	src:url('../fonts/icomoon/icomoon.eot') format('
         embedded-opentype '),url('../fonts/icomoon/icomoon.ttf') format('
         truetype '),url('../fonts/icomoon/icomoon.woff') format('
         woff '),url('../fonts/icomoon/icomoon.svg icomoon ') format('
