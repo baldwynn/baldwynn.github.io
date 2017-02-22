@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: /DavidBaldwinResume2016%20(1).pdf
+Disallow: /DavidBaldwinResume2016%20(2).pdf
+Disallow: /DavidBaldwinResume2016%20(3).pdf
+Disallow: /DavidBaldwinResume2016.pdf
+Disallow: /DavidBaldwinResumeDraft2.3._1.pdf
+Disallow: /David_Baldwynn_Resume_2015.pdf
